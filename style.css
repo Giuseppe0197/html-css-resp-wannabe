@@ -80,7 +80,7 @@ img {
   /* parte superiore */
 
     #lezioni {
-      max-width: 100%;
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
     }
@@ -98,16 +98,16 @@ img {
     }
 
     .left {
-      min-width: 70%;
-      margin: 5px;
+      min-width: 100%;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       font-size: 20px;
+      margin-bottom: 20px;
     }
 
     .left img {
-      width: 100%;
+      min-width: 70%;
     }
 
     .left h3 {
@@ -116,15 +116,16 @@ img {
     }
 
     .right {
-      min-width: 70%;
+      min-width: 100%;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       font-size: 20px;
+      margin-bottom: 20px;
     }
 
     .right img {
-      max-width: 100%;
+      min-width: 70%;
     }
 
     .right h3 {
@@ -133,4 +134,28 @@ img {
     }
 
     /* parte centrale */
+
+    #steps {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .central {
+      min-width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .central img {
+      min-width: 70%;
+    }
+
+    .central h3 {
+      font-size: 2em;
+      text-align: center;
+    }
 }
