@@ -144,7 +144,6 @@ img {
 
   #steps .row .central {
     width: 50%;
-    float: left;
   }
 
   #steps .row .central img {
@@ -157,8 +156,7 @@ img {
 
   #steps .row .right {
     width: 50%;
-    margin-left: 200px;
-    margin-top: 20px;
+    margin: 20px auto;
   }
 
   #steps .row .right img {
@@ -176,18 +174,10 @@ img {
     margin: auto;
   }
 
-  #why .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  #why .row h1 {
-    width: 100%;
-  }
-
   #why .row .first {
-    width: 30%;
+    max-width: 30%;
+    float: left;
+    margin-right: 25px;
   }
 
   #why .row .first img {
@@ -199,7 +189,9 @@ img {
   }
 
   #why .row .second {
-    width: 30%;
+    max-width: 30%;
+    float: left;
+    margin-right: 25px;
   }
 
   #why .row .second img {
@@ -211,7 +203,8 @@ img {
   }
 
   #why .row .third {
-    width: 30%;
+    max-width: 30%;
+    float: left;
   }
 
   #why .row .third img {
